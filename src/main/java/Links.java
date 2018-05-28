@@ -6,9 +6,6 @@ import org.jsoup.nodes.*;
 import org.jsoup.select.*;
 
 interface Links extends Iterable<URL> {
-
-  Iterator<URL> iterator();
-
   class HTML implements Links {
 
     private ArrayList<String> err404;
