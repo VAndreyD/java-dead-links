@@ -5,11 +5,6 @@ import org.junit.runners.*;
 
 import static org.junit.Assert.*;
 
-/**
- * Java code implementing the below contract; Test calling main(String[] args) and verifying the
- * program system output correctness.
- */
-
 @RunWith(JUnit4.class)
 public class DeadLinksTest {
 
